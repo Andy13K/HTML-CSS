@@ -1,0 +1,97 @@
+body{
+	font-family: 'Poppins', sans-serif;;
+}
+
+.contenedor {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.nave {
+	display: inline-block;
+	background: darkviolet;
+	color: white;
+	padding: 20px 50px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.nave:hover{
+	background: blueviolet;
+}
+
+nav {
+	background: darkviolet;
+	display: flex;
+	justify-content: center;
+}
+
+.contenedorP {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.titulo {
+	font-size: 75px;
+	background-image: url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic1356104.jpg?w=1900&h=950');
+	color: white;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.columna {
+	background: #FEF7FF;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px black;
+	width: 23%;
+	box-sizing: border-box;
+}
+
+.colorh3{
+	font-size: 35px;
+	color: white;
+	background-image: url('https://i.ytimg.com/vi/78GN5q88vpY/maxresdefault.jpg') ;
+}
+
+.btn {
+	background: darkviolet;
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.btn:hover{
+	background: violet;
+}
+
+@media (max-width: 1070px){
+	.columna {
+		width: 45%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 700px) {
+	.columna{
+		width: 90%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 600px){
+	nav {
+		flex-direction: column;
+	}
+}
